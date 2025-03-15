@@ -1,0 +1,40 @@
+.card {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow to create card effect */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 600px; /* Limit the width of the card */
+    margin: 0 auto; /* Center the card */
+  }
+  
+  .card h1 span {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .card h1 span span {
+    z-index: 1;
+    position: relative;
+  }
+  
+  .card h1 span span + span {
+    position: absolute;
+    bottom: -5px; /* Adjust this value to position the line */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110%; /* Adjust the length of the line */
+    height: 4px; /* Adjust the thickness of the line */
+    background: black; /* Change color as needed */
+    z-index: 0;
+  }
+  
+  .card p {
+    font-size: 16px;
+  }
+  
+  .card button {
+    margin: 10px;
+    padding: 10px 20px;
+  }
+  

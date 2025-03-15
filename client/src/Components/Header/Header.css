@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .searchButton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

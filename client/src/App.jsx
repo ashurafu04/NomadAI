@@ -1,3 +1,22 @@
+// import Header from './Components/Header/Header';
+// // import MoroccoRegionsMap from './components/Map/MoroccoRegions';
+// import WelcomeCard from './Components/Others/WelcomeCard';
+// import Footer from './Components/Footer/Footer';
+// import ExploreCity from './Components/Cards/ExploreCity';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Header />
+//       <WelcomeCard />
+//       <ExploreCity image = "/logo192.png" title= "Marrakech: the red city" text= "Experience Morocco like never before with Nomad AI, your intelligent travel assistant.We offer personalized trip planning, virtual tours, and voice interaction to enhance your journey."  />
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// export default App;
+
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import moroccanFlag from "./assets/moroccanFlag.png";
