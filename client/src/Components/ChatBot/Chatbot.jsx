@@ -70,11 +70,11 @@ const ChatBot = () => {
   };
 
   const examplePrompts = [
-    "Create a 3-day itinerary for Marrakech on a medium budget",
-    "What are family-friendly activities in Casablanca?",
-    "Recommend restaurants near the Hassan II Mosque in Casablanca",
-    "What should I pack for Fes in November?",
-    "Plan a weekend getaway from Tangier under 500 MAD",
+    "🗺️ Create a 3-day itinerary for Marrakech on a medium budget",
+    "👨‍👩‍👧‍👦 What are family-friendly activities in Casablanca?",
+    "🍽️ Recommend restaurants near the Hassan II Mosque in Casablanca",
+    "🎒 What should I pack for Fes in November?",
+    "💰 Plan a weekend getaway from Tangier under 500 MAD",
   ];
 
   const popularDestinations = [

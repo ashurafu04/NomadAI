@@ -1,7 +1,6 @@
- .header {
+.header {
   width: 100%;
-  width: 1200px;
-  max-width: 100%; 
+  max-width: 1200px;
   margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -12,7 +11,7 @@
   background-color: black;
   padding: 10px 20px;
   box-sizing: border-box;
-} 
+}
 
 .logo {
   color: white;
@@ -29,28 +28,103 @@
   color: white;
   text-decoration: none;
   font-size: 16px;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
 .link:hover {
-  text-decoration: underline;
-  color: orange;
+  color: #ff814b; /* Matching the teal from your logo */
 }
 
-.link:active, .link:focus {
-  color: orange; 
-  font-weight: bold; 
+.link:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #ff814b; /* Teal from logo */
+  transition: width 0.3s ease;
+}
+
+.link:hover:after {
+  width: 100%;
+}
+
+.link:active,
+.link:focus {
+  color: #ff814b;
+  font-weight: bold;
 }
 
 .search-button {
-  background-color: orange;
+  background-color: #ff814b; /* Softened orange from your logo */
   color: white;
   border: none;
-  padding: 8px 16px;
+  padding: 10px 18px;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .search-button:hover {
-  background-color: darkorange;
+  background-color: #ff5f1b; /* Slightly darker orange on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.search-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile menu button - initially hidden */
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Media queries for header */
+@media (max-width: 1200px) {
+  .header {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    gap: 10px;
+  }
+}
+
+/* Specific mobile size range including 412px width */
+@media (max-width: 576px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px 15px;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 15px;
+  }
+
+  .nav.active {
+    display: flex;
+  }
 }
