@@ -1,41 +1,41 @@
 .explore-city {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-    max-width: 250px;
-    margin: 0px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
-  }
-  
-  .explore-city img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-  }
-  
-  .explore-city .content {
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .explore-city h2 {
-    margin: 0 0 10px;
-    font-size: 1.3rem;
-  }
-  
-  .explore-city p {
-    color: #555;
-    font-size: 0.95rem;
-    line-height: 1.4;
-  }
-  
-  .explore-city button {
-    margin-bottom: 5px;
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }  
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 250px;
+  margin: 0px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.explore-city img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.explore-city .content {
+  padding: 10px;
+  text-align: center;
+}
+
+.explore-city h2 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+}
+
+.explore-city p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.explore-city button {
+  margin-bottom: 5px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

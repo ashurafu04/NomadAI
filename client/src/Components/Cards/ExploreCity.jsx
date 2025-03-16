@@ -1,4 +1,4 @@
-import './ExploreCity.css'; // Import the CSS file
+import "./ExploreCity.css"; // Import the CSS file
 
 const ExploreCity = ({ image, title, text }) => {
   return (
@@ -16,4 +16,3 @@ const ExploreCity = ({ image, title, text }) => {
 };
 
 export default ExploreCity;
-
