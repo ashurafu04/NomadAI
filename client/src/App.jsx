@@ -1,10 +1,11 @@
-import {Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Header from "./Components/Header/Header";
 //import HomePage from "./Pages/Home/HomePage";
 import Nomad from "./Pages/NomadAi/Nomad";
 import Contact from "./Pages/Contact/ContactPage";
 import Footer from "./Components/Footer/Footer";
+import HomePage from "./Pages/HomePage/HomePage";
 
 import "./App.css";
 
@@ -12,14 +13,14 @@ function App() {
   return (
     <div className="app-wrapper">
       <Header />
-      
+      <main className="main-content">
         <Routes>
-          <Route path="/" />
-          <Route path="/nomadAi" element={<Nomad/>}/>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/nomadAi" element={<Nomad />} />
           <Route path="/features" />
           <Route path="/contact" element={<Contact />}/>
         </Routes>
-      
+      </main>
       <Footer />
     </div>
   );
