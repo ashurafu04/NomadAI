@@ -2,20 +2,20 @@
   width: 100%;
   background-color: black;
   display: flex;
-  justify-content: center; /* Centers the content inside the container */
-  position: fixed; /* Ensures the header stays fixed at the top */
-  top: 0;
-  z-index: 1000; /* Keeps it above other elements */
+  justify-content: center; 
+  position: fixed;
+  top: 20px;
+  z-index: 1000;
 }
 
 .header {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto; /* Ensures the header is horizontally centered */
-  border-radius: 24px; /* Keeps rounded corners */
-  position: fixed; /* Fix the header at the top */
-  top: 0;
-  z-index: 1000; /* Keeps it above other elements */
+  max-width: 1100px;
+  margin: 0 auto; 
+  border-radius: 24px; 
+  position: fixed;
+  top: 20px;
+  z-index: 1000; 
   left: 0; /* Ensures alignment starts from the left */
   right: 0; /* Keeps the header balanced */
   background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
@@ -29,7 +29,9 @@
 }
 
 .main-content {
-  margin-top: 70px; /* Add margin to prevent content from overlapping header */
+  margin-top:120px;
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -59,7 +61,7 @@
 }
 
 .link:hover {
-  color: #ff814b; /* Matching the teal from your logo */
+  color: #ff814b; 
 }
 
 .link:after {
@@ -69,7 +71,7 @@
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #ff814b; /* Teal from logo */
+  background-color: #ff814b;
   transition: width 0.3s ease;
 }
 
@@ -84,7 +86,7 @@
 }
 
 .search-button {
-  background-color: #ff814b; /* Softened orange from your logo */
+  background-color: #ff814b;
   color: white;
   border: none;
   padding: 10px 18px;
